@@ -1,0 +1,101 @@
+.authWraper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.CardWidth {
+  width: 590px;
+  background: transparent;
+  border: none;
+}
+.signupInputWrapper{
+  width: 560px;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.loginBtn {
+  padding: 20px 20px;
+}
+.loginHeading p {
+  margin: 0;
+}
+.loginHeading h1,
+.loginHeading h2 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.line {
+  background-color: #181818;
+  width: 51px;
+  height: 1px;
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+
+
+
+.btnGroup {
+  margin-top: 50px;
+}
+
+.btnGroup ul li {
+  list-style: none;
+}
+
+.btnGreen {
+  background-color: #48D76E;
+  padding: 6px 6px;
+  font-size: 13px;
+}
+.btnGreen a {
+  color: #181818;
+}
+.btnFb {
+  color: #181818;
+  border: 1px solid #ddd;
+  padding: 6px 6px;
+  font-size: 13px;
+}
+.btnFb a img {
+  margin-right: 5px;
+}
+.btnGreen a:hover {
+  color: #fff;
+}
+.btnFb a:hover {
+  color: #4285F4;
+}
+.btnGoogle {
+  color: #181818;
+  border: 1px solid #ddd;
+  padding: 6px 6px;
+  font-size: 13px;
+}
+.btnGoogle a:hover {
+  color: #4285F4;
+}
+.btnGoogle a img {
+  margin-right: 5px;
+}
+.login-form-forgot {
+  color: #181818;
+}
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 380px) {
+
+  .CardWidth {
+    width: 350px;
+    transition: 0.3s;
+  }
+  
+}
