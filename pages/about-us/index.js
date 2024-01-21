@@ -5,6 +5,7 @@ import Testimonial from '../../components/module/Testimonial'
 import Service from '../../components/module/Service'
 import Youtube from '../../components/module/Youtube'
 import PerfactPlace from '@/components/module/PerfactPlace';
+import TopButton from '@/components/common/TopButton';
 
 const index = () => {
   return (
@@ -14,6 +15,7 @@ const index = () => {
       <Service/>
       <PerfactPlace/>
       <Youtube/>
+      <TopButton/>
     </>
   );
 };

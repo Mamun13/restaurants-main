@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { GiKnifeFork } from 'react-icons/gi';
@@ -63,11 +64,11 @@ export default function Testimonial() {
                       </span>
                     </p>
                     <div className='d-flex justify-content-center mt-3'>
-                      <button className='button-48' role='button'>
+                      <Link href="/#Reservation" className='button-48' role='button'>
                         <span className='text text-uppercase'>
                           make reservation
                         </span>
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -183,8 +183,8 @@ export default function FoodMenu() {
             {movieData?.map((curElement, index) => {
               return (
                 <>
-                  <div className='col-lg-6 food_manu_border'>
-                    <div key={index} className='d-flex justify-content-start align-items-center my-4 px-5'>
+                  <div key={index} className='col-lg-6 food_manu_border' >
+                    <div className='d-flex justify-content-start align-items-center my-4 px-5'>
                       <div>
                         <img
                           src={curElement.image}
@@ -199,7 +199,7 @@ export default function FoodMenu() {
                               {curElement.name}
                             {/* </h4> */}
                           </Link>
-                          <h4 className='theme_text_color'> BDT. {curElement.price}</h4>
+                          <h4 className='theme_text_color fw_400'> BDT. {curElement.price}</h4>
                         </div>
                         <p className='card-text text-secondary f-3 font_14 text-light fw_400'>
                           {curElement.description}
@@ -218,7 +218,7 @@ export default function FoodMenu() {
               </p>
             </div>
             <div className='d-flex justify-content-center mt-4'>
-              <Link href='#' className='button-48' role='button'>
+              <Link href='/e-menu' className='button-48' role='button'>
                 <span className='text text-uppercase'>view our e-manu</span>
               </Link>
             </div>

@@ -213,7 +213,7 @@ font-family: 'Poppins', sans-serif; */
 }
 .overbanner2 .dropdown-item:hover{
   color: #fff!important;
-  background-color: var(--dark-light)!important;
+  background-color: var(--dark)!important;
 
 }
 .sticky2 {

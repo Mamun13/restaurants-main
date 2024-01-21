@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { GiKnifeFork } from 'react-icons/gi';
@@ -64,9 +65,9 @@ const PerfactPlace = () => {
             <p className='pe-4 mb-0 phone_number'>+00-123-123456</p>
             <p className='mb-5 pe-4'>Booking request</p>
               <div className='d-flex justify-content-end mt-3 pe-4'>
-                <button className='button-48' role='button'>
+                <Link href="/#Reservation" className='button-48' role='button'>
                   <span className='text text-uppercase'>make reservation</span>
-                </button>
+                </Link>
               </div>
             </div>
           </Row>
