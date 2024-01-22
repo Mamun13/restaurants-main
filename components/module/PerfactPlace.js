@@ -23,7 +23,7 @@ const PerfactPlace = () => {
           <Row>
             <Col lg={6}>
               <div>
-                <h1 className='text-capitalize perfect_title px-3 pb-5'>
+                <h1 className='text-capitalize perfect_title px-3 pb-5 ps-md-0 pe-md-5'>
                   the perfect place <br />
                   for an exceptional experience
                 </h1>

@@ -20,7 +20,7 @@ const Contact = () => {
             </p>
           </div>
           <Row>
-            <Col lg={6} className='p-0'>
+            <Col lg={6} md={6} className='p-0'>
               <div className='contact_details position-relative d-flex justify-content-center align-items-center'>
                 <div className='text-center location_contact_part pb-5'>
                   <div>
@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={6} className='p-0'>
+            <Col lg={6} md={6} className='p-0'>
               <div>
                 <iframe src='//maps.google.com/maps?q=53.3381768,-6.2613077&z=15&output=embed' />
               </div>

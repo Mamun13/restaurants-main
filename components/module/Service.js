@@ -35,7 +35,7 @@ export default function Service() {
                     </div>
                   </div>
 
-                  <h5 className='mt-4'>Master Chefs</h5>
+                  <h5 className='mt-4 fw_400'>Master Chefs</h5>
                   <p>
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam
@@ -55,7 +55,7 @@ export default function Service() {
                     </div>
                   </div>
 
-                  <h5 className='mt-4'>Quality Food</h5>
+                  <h5 className='mt-4 fw_400'>Quality Food</h5>
                   <p>
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam
@@ -76,7 +76,7 @@ export default function Service() {
                     </div>
                   </div>
 
-                  <h5 className='mt-4 text-capitalize'>online order</h5>
+                  <h5 className='mt-4 text-capitalize fw_400'>online order</h5>
                   <p>
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam
@@ -96,7 +96,7 @@ export default function Service() {
                     </div>
                   </div>
 
-                  <h5 className='mt-4 text-capitalize'>24/7 Service</h5>
+                  <h5 className='mt-4 text-capitalize fw_400'>24/7 Service</h5>
                   <p>
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam

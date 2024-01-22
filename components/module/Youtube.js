@@ -12,7 +12,7 @@ export default function Testimonial() {
         </h1>
         <Container>
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-md-4'>
               <div className='d-flex justify-content-center'>
                 <div>
                   <div className='d-flex justify-content-center align-items-center position-relative'>
@@ -28,7 +28,7 @@ export default function Testimonial() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-md-4'>
               <div className='d-flex justify-content-center'>
                 <div>
                   <div className='d-flex justify-content-center align-items-center position-relative'>
@@ -44,7 +44,7 @@ export default function Testimonial() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-md-4'>
               <div className='d-flex justify-content-center'>
                 <div>
                   <div className='d-flex justify-content-center align-items-center position-relative'>

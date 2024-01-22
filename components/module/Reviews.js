@@ -4,8 +4,8 @@ import { GiKnifeFork } from 'react-icons/gi';
 
 export default function Testimonial() {
   return (
-    <section className='review_part py-5'>
-      <div className='container-xxl py-5 wow fadeInUp' data-wow-delay='0.1s'>
+    <section className='review_part py-5 py-md-3'>
+      <div className='container-xxl py-5 py-md-3 wow fadeInUp' data-wow-delay='0.1s'>
         <div className='container'>
           <div className='text-center mb-3'>
             <GiKnifeFork className='theme_text_color' size={'40px'} />
@@ -14,7 +14,7 @@ export default function Testimonial() {
             <h5 className='section-title ff-secondary text-center text-primary fw-normal'>
               Reviews
             </h5>
-            <h1 className='mb-5 '>They All Love Our Food</h1>
+            <h1 className='mb-5 mb-md-0 fw_400'>They All Love Our Food</h1>
           </div>
           <div className=''>
             <Carousel>
@@ -30,7 +30,7 @@ export default function Testimonial() {
                     />
                     <div className='d-flex justify-content-center'>
                       <div className='ps-3 text-center'>
-                        <h5 className='mb-1'>mamun</h5>
+                        <h5 className='mb-1 fw_400'>mamun</h5>
                         <small>Software Engineer</small>
                       </div>
                     </div>
@@ -49,7 +49,7 @@ export default function Testimonial() {
                     />
                     <div className='d-flex justify-content-center'>
                       <div className='ps-3 text-center'>
-                        <h5 className='mb-1'>mamun</h5>
+                        <h5 className='mb-1 fw_400'>mamun</h5>
                         <small>Software Engineer</small>
                       </div>
                     </div>
@@ -68,7 +68,7 @@ export default function Testimonial() {
                     />
                     <div className='d-flex justify-content-center'>
                       <div className='ps-3 text-center'>
-                        <h5 className='mb-1'>mamun</h5>
+                        <h5 className='mb-1 fw_400'>mamun</h5>
                         <small>Software Engineer</small>
                       </div>
                     </div>
@@ -87,7 +87,7 @@ export default function Testimonial() {
                     />
                     <div className='d-flex justify-content-center'>
                       <div className='ps-3 text-center'>
-                        <h5 className='mb-1'>mamun</h5>
+                        <h5 className='mb-1 fw_400'>mamun</h5>
                         <small>Software Engineer</small>
                       </div>
                     </div>

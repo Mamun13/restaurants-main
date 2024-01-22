@@ -22,10 +22,10 @@ const Experience = () => {
             </p>
           </div>
           <Row>
-            <Col lg={8}>
+            <Col lg={8} md={12}>
               <div className='d-flex align-content-center '>
                 <Row className='d-flex align-items-center '>
-                  <Col lg={6}>
+                  <Col lg={6} md={6}>
                     <div>
                       <div>
                         <img
@@ -36,7 +36,7 @@ const Experience = () => {
                       </div>
                     </div>
                   </Col>
-                  <Col lg={6}>
+                  <Col lg={6} md={6}>
                     <div>
                       <img
                         src='/assets/images/experi_banner4.jpg'
@@ -48,9 +48,9 @@ const Experience = () => {
                 </Row>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={12}>
               <div className='my-5'>
-                <p className='mb-3 font_14'>
+                <p className='mb-3 font_14 experience_des'>
                   Arrowhead Grill is a top choice for many discerning diners due
                   to its exceptional commitment to quality and service. Renowned
                   for its prime steaks, the restaurant sources the finest cuts
@@ -66,10 +66,10 @@ const Experience = () => {
                   on delivering the best culinary experiences is designed to
                   exceed expectations.
                 </p> */}
-                <p className='mb-3 mt-4'>Booking request</p>
-                <p className='mb-5 phone_number'>+00-123-123456</p>
+                <p className='mb-3 mt-4 experience_booking'>Booking request</p>
+                <p className='mb-5 phone_number experience_booking'>+00-123-123456</p>
 
-                <div className='d-flex justify-content-start mt-3'>
+                <div className='experience_reser_btn mt-3 '>
                   <Link
                     href='#Reservation'
                     scroll={false}

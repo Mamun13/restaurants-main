@@ -10,12 +10,12 @@ export default function Testimonial() {
       <div className='container-xxl py-5 wow fadeInUp' data-wow-delay='0.1s'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-7'>
+            <div className='col-lg-7 col-md-7'>
               <Carousel>
                 <Carousel.Item>
                   <div
                     className='testimonial-item d-flex align-items-center justify-content-center rounded text-center theme_bg_color1'
-                    style={{ height: 500 }}
+                    // style={{ height: 500 }}
                   >
                     <img src='/assets/images/test_place.jpg' className='img-fluid testi_image'/>
                    
@@ -24,7 +24,7 @@ export default function Testimonial() {
                 <Carousel.Item>
                   <div
                     className='testimonial-item d-flex align-items-center justify-content-center rounded text-center theme_bg_color1'
-                    style={{ height: 500 }}
+                    // style={{ height: 500 }}
                   >
                     <img src='/assets/images/test_place1.jpg' className='img-fluid testi_image'/>
                    
@@ -33,7 +33,7 @@ export default function Testimonial() {
                 <Carousel.Item>
                   <div
                     className='testimonial-item d-flex align-items-center justify-content-center rounded text-center theme_bg_color1'
-                    style={{ height: 500 }}
+                    // style={{ height: 500 }}
                   >
                     <img src='/assets/images/test_place2.jpg' className='img-fluid testi_image'/>
                    
@@ -42,10 +42,10 @@ export default function Testimonial() {
                 
               </Carousel>
             </div>
-            <div className='col-lg-5'>
+            <div className='col-lg-5 col-md-5'>
               <div
-                className='ps-5 text-center d-flex align-items-center justify-content-center'
-                style={{ height: 500 }}
+                className='ps-5 text-center d-flex align-items-center justify-content-center testi_party'
+                // style={{ height: 500 }}
               >
                 <div className=''>
                   <div className='mb-3'>
@@ -53,7 +53,7 @@ export default function Testimonial() {
                       className='theme_text_color'
                       size={'50px'}
                     />
-                  </div>
+                  </div>  
                   <div className=''>
                     <h1 className='pb-3 fw_400 about_title_des display-1 text-capitalize'>
                       looking for a party venue?

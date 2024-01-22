@@ -20,7 +20,7 @@ export default function Reservation() {
             </p>
           </div>
           <Row>
-            <Col lg={3}>
+            <Col lg={3} md={6}>
               <div>
                 <div className='mb-3'>
                   <label htmlFor='' className='form-label'>
@@ -35,7 +35,7 @@ export default function Reservation() {
                 </div>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} md={6}>
               <div className='reser_form_one'>
                 <label htmlFor='' className='form-label'>
                   Select Adult
@@ -52,7 +52,7 @@ export default function Reservation() {
                 </select>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} md={6}>
               <div>
                 <div className='mb-3'>
                   <label htmlFor='' className='form-label'>
@@ -67,7 +67,7 @@ export default function Reservation() {
                 </div>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} md={6}>
               <div className='reser_form_one'>
                 <label htmlFor='' className='form-label'>
                   Select Time

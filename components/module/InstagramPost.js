@@ -22,9 +22,9 @@ const InstagramPost = () => {
               <Col lg={4}  md={4}>
                 <div className='position-relative '>
                   <Row className='p-0 m-0 marge_padding'>
-                    <Col lg={6} md={4}>
+                    <Col lg={6} md={6}>
                       <div
-                        className='on_hover'
+                        className='on_hover insta_post'
                         style={{ position: 'relative' }}
                       >
                         <img
@@ -38,9 +38,9 @@ const InstagramPost = () => {
                         </div>
                       </div>
                     </Col>
-                    <Col lg={6} md={4}>
+                    <Col lg={6} md={6}>
                       <div
-                        className='on_hover'
+                        className='on_hover insta_post'
                         style={{ position: 'relative' }}
                       >
                         <img
@@ -54,9 +54,9 @@ const InstagramPost = () => {
                         </div>
                       </div>
                     </Col>
-                    <Col lg={6} md={4}>
+                    <Col lg={6} md={6}>
                       <div
-                        className='on_hover'
+                        className='on_hover insta_post'
                         style={{ position: 'relative' }}
                       >
                         <img
@@ -70,9 +70,9 @@ const InstagramPost = () => {
                         </div>
                       </div>
                     </Col>
-                    <Col lg={6} md={4}>
+                    <Col lg={6} md={6}>
                       <div
-                        className='on_hover'
+                        className='on_hover insta_post'
                         style={{ position: 'relative' }}
                       >
                         <img

@@ -45,7 +45,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={` fw-light font_14 m-0 ${
+                        className={` fw-light font_14 filter_menu_font m-0 ${
                           tab === 'all' ? 'onclick_active' : ''
                         } `}
                       >
@@ -62,7 +62,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={`fw-light font_14 m-0 ${
+                        className={`fw-light filter_menu_font font_14 m-0 ${
                           tab === 'steak' ? 'onclick_active' : ''
                         } `}
                       >
@@ -80,7 +80,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={` fw-light font_14 m-0 ${
+                        className={`filter_menu_font fw-light font_14 m-0 ${
                           tab === 'table_top' ? 'onclick_active' : '' //lunch to  table
                         } `}
                       >
@@ -98,7 +98,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={`fw-light font_14 m-0 ${
+                        className={`filter_menu_font fw-light font_14 m-0 ${
                           tab === 'starters' ? 'onclick_active' : '' //dinner to starters
                         } `}
                       >
@@ -115,7 +115,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={`fw-light font_14 m-0 ${
+                        className={`filter_menu_font fw-light font_14 m-0 ${
                           tab === 'smoothie' ? 'onclick_active' : ''
                         } `}
                       >
@@ -132,7 +132,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={`fw-light font_14 m-0 ${
+                        className={`filter_menu_font fw-light font_14 m-0 ${
                           tab === 'mocktails' ? 'onclick_active' : ''
                         } `}
                       >
@@ -149,7 +149,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={`fw-light font_14 m-0 ${
+                        className={`filter_menu_font fw-light font_14 m-0 ${
                           tab === 'soup' ? 'onclick_active' : ''
                         } `}
                       >
@@ -166,7 +166,7 @@ export default function FoodMenu() {
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={`fw-light font_14 m-0 ${
+                        className={`filter_menu_font fw-light font_14 m-0 ${
                           tab === 'special_chicken' ? 'onclick_active' : ''
                         } `}
                       >
@@ -182,9 +182,8 @@ export default function FoodMenu() {
           <div className='row'>
             {movieData?.map((curElement, index) => {
               return (
-                <>
-                  <div key={index} className='col-lg-6 food_manu_border' >
-                    <div className='d-flex justify-content-start align-items-center my-4 px-5'>
+                  <div key={index} className='col-lg-6 col-md-6 food_manu_border' >
+                    <div className='d-flex justify-content-start align-items-center my-4 px-5 px-md-3'>
                       <div>
                         <img
                           src={curElement.image}
@@ -194,20 +193,19 @@ export default function FoodMenu() {
                       </div>
                       <div className='ms-3'>
                         <div className='d-flex justify-content-between mb-3 filter_border'>
-                          <Link href='#' className='fw_400 text-capitalize'>
+                          <Link href='#' className='fw_400 text-capitalize menu_title'>
                             {/* <h4 className='fw_400 foodmanu_title'> */}
                               {curElement.name}
                             {/* </h4> */}
                           </Link>
-                          <h4 className='theme_text_color fw_400'> BDT. {curElement.price}</h4>
+                          <h4 className='theme_text_color fw_400 menu_price'> BDT. {curElement.price}</h4>
                         </div>
-                        <p className='card-text text-secondary f-3 font_14 text-light fw_400'>
+                        <p className='card-text text-secondary f-3 font_14 text-light fw_400 menu_descr'>
                           {curElement.description}
                         </p>
                       </div>
                     </div>
                   </div>
-                </>
               );
             })}
             <div className='text-center pt-5 font_14 fw-light'>

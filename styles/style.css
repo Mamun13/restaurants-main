@@ -132,7 +132,7 @@ font-family: 'Poppins', sans-serif; */
   margin-left: 25px;
   padding: 35px 0;
   font-size: 15px;
-  color: #fff!important;
+  color: #fff !important;
   text-transform: uppercase;
   font-weight: 500;
   outline: none;
@@ -177,60 +177,21 @@ font-family: 'Poppins', sans-serif; */
     max-height: 45px;
   }
 }
+/* overlay part start */
 
-/* @media (min-width: 992px) {
-  .navbar-dark {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    background: transparent !important;
-  }
-
-  .sticky-top.navbar-dark {
-    position: fixed;
-    background: var(--dark) !important;
-  }
-} */
-.overbanner2 {
-  position: absolute;
-  top: 0%;
-  left: 0;
-  color: #fff!important;
-  right: 0;
-  /* background-color: #221a177b!important; */
-  /* animation-name: mamun;
-  animation-duration: 1s;*/
-
-  z-index: 999999;
-}
-.overbanner2 .dropdown-toggle::after {
-  display: none;
-}
-.overbanner2 .dropdown-menu.show {
-  margin-top: -26px;
-}
-.overbanner2 .dropdown-item:hover{
-  color: #fff!important;
-  background-color: var(--dark)!important;
-
-}
-.sticky2 {
-  position: fixed!important;
+/* for responsive manu css */
+.sticky3 {
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #0000008e!important;
-  /* color: #666 !important; */
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  color: #666 !important;
   animation-name: animate;
   animation-duration: 1s;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   z-index: 999999;
-}
-.sticky2 .sticky_text_color {
-  color: #fff !important;
 }
 @keyframes animate {
   from {
@@ -240,6 +201,226 @@ font-family: 'Poppins', sans-serif; */
     top: 0%;
   }
 }
+.sticky3 .sticky_text_color {
+  color: #2f2f2f !important;
+  font-weight: 600;
+}
+.sticky3 .sticky_text_color2 {
+  color: #fff !important;
+  font-weight: 600;
+}
+.overbanner2 {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+
+  z-index: 999999;
+}
+.overbanner3 {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+
+  z-index: 999999;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay-content-itema {
+  color: #c5c5c5;
+  transition: all linear 0.3s;
+}
+
+/* Style the open button */
+.open-button {
+  color: #fff;
+  cursor: pointer;
+  line-height: 56px;
+}
+.res_font_size {
+  font-size: 30px;
+}
+.overlay-icon {
+  margin-top: 13px;
+}
+
+/* Style the "Close" button */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+.overlay-div {
+  visibility: none;
+}
+/* overlay part end */
+.overbanner {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #0000002e;
+}
+
+.overbanner3 {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+}
+.res_overbanner2 {
+  position: absolute;
+  top: 5.5%;
+  left: 0;
+  right: 0;
+  /* background-color: #221a177b; */
+  /* animation-name: mamun;
+  animation-duration: 1s;*/
+
+  z-index: 999999;
+}
+.theme_bg.offcanvas.offcanvas-end.show {
+  z-index: 999999;
+}
+.open-button {
+  border-radius: 8px;
+  padding: 0px 18px;
+  background-color: var(--primary) !important;
+}
+
+.sticky2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000080;
+  color: #666 !important;
+  animation-name: animate;
+  animation-duration: 1s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  z-index: 999999;
+}
+.sticky2 .sticky_text_color {
+  /* color: #2f2f2f !important; */
+  font-weight: 600;
+}
+.sticky3 .sticky_text_color2 {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+/* for responsive manu css */
+.sticky3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #666 !important;
+  animation-name: animate;
+  animation-duration: 1s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  z-index: 999999;
+}
+.sticky3 .sticky_text_color {
+  color: #2f2f2f !important;
+  font-weight: 600;
+}
+@keyframes animate {
+  from {
+    top: -10%;
+  }
+  to {
+    top: 0%;
+  }
+}
+.overbanner2 .dropdown-toggle::after {
+  display: none !important;
+}
+.overbanner2 .dropdown-menu.show {
+  margin-top: -25px;
+}
+
+.cate-drop {
+  font-size: 14px;
+  transition: all linear 0.3s;
+}
+.cate-drop:hover {
+  color: #fff !important;
+  background-color: var(--dark);
+}
+.cate-drop.text-light.text-capitalize.all-icons.text-dark.px-4.py-2.d-block.dropdown-item {
+  word-wrap: break-word !important;
+  white-space: normal;
+}
+.social_icon {
+  color: #e1e1e1;
+  padding-right: 15px;
+}
+
+.subMenu {
+  /* background-image: url("/pageBg.jpg"); */
+  background-position: left bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.navBox {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 20px !important;
+  column-gap: 15px !important;
+}
+.overbanner3 {
+  display: none;
+}
+
+@keyframes myanimation {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+/* responsive part */
+
+/* end of onscroll slider */
 
 .hero-header img {
   animation: imgRotate 50s linear infinite;
@@ -654,7 +835,9 @@ font-family: 'Poppins', sans-serif; */
 .testimonial-carousel .owl-item.center .testimonial-item * {
   transition: 0.5s;
 }
-
+.testimonial-item {
+  height: 500px;
+}
 .testimonial-carousel .owl-item.center .testimonial-item {
   background: var(--primary) !important;
   border-color: var(--primary) !important;
@@ -663,7 +846,9 @@ font-family: 'Poppins', sans-serif; */
 .testimonial-carousel .owl-item.center .testimonial-item * {
   color: var(--light) !important;
 }
-
+.testi_party {
+  height: 500px;
+}
 .testimonial-carousel .owl-dots {
   /* margin-top: 24px; */
   display: flex;
@@ -1011,10 +1196,11 @@ font-family: 'Poppins', sans-serif; */
 .insta_post {
   height: 450px;
   width: 450px;
+  object-fit: contain;
 }
 .all_insta_posts {
   height: 225px;
-  width: 225px;
+  width: 50%;
   object-fit: cover;
 }
 
@@ -1035,8 +1221,8 @@ font-family: 'Poppins', sans-serif; */
   background-color: #002b4091;
   cursor: pointer;
   /* z-index: 99999; */
-  transition: all linear 0.3s;
   opacity: 0;
+  transition: all linear 0.3s;
 }
 .sec_border {
   border: 1px solid #fff;
@@ -1282,7 +1468,7 @@ iframe {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 999999;
+  z-index: 1;
 }
 /* read_more_banner css part end */
 
@@ -1361,18 +1547,104 @@ iframe {
 /* perfect place section css start */
 
 /* virtual section css start */
-.vitualmenu_image{
+.vitualmenu_image {
   width: 100%;
   height: 700px;
   object-fit: contain;
 }
-.e_menu_img{
+.e_menu_img {
   height: 300px;
   width: auto;
   margin-bottom: 30px;
   object-fit: contain;
 }
 .e_menu .carousel-indicators {
-  display: none!important;
+  display: none !important;
 }
 /* virtual section css end */
+
+@media (min-width: 1200px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .overbanner3 {
+    display: block;
+  }
+  #Top {
+    display: none;
+  }
+  .experience_bg {
+    height: auto;
+  }
+  .food_manu_img {
+    height: 70px;
+    width: 70px;
+  }
+  .menu_title {
+    font-size: 14px;
+  }
+  .menu_price {
+    font-size: 14px;
+    width: 45px;
+  }
+  .menu_descr {
+    font-size: 12px;
+  }
+  .experience_des {
+    text-align: center;
+  }
+  .experience_booking {
+    text-align: center;
+  }
+  .experience_reser_btn {
+    display: flex;
+    justify-content: center;
+  }
+  .insta_post {
+    height: auto;
+    width: 100%;
+  }
+  .all_insta_posts {
+    height: 137px;
+    width: 100%;
+  }
+  .sec_border {
+    padding: 33px;
+  }
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+  .overbanner2 .dropdown-menu.show {
+    margin-top: -25px;
+  }
+  .overlay_reser_btn {
+    font-size: 24px !important;
+    padding: 22px 25px !important;
+    margin-top: 20px;
+  }
+  .filter_menu_font {
+    font-size: 10px !important;
+  }
+  .testimonial-item {
+    height: 400px;
+  }
+  .testimonial {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .testimonial .carousel-control-prev-icon {
+    left: 150px;
+    bottom: -70px;
+  }
+  .testimonial .carousel-control-next-icon {
+    right: 150px;
+    bottom: -70px;
+  }
+  .testi_party {
+    height: auto;
+  }
+  .youtube_bg {
+    height: 50vh;
+  }
+}
