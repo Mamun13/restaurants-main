@@ -1366,4 +1366,13 @@ iframe {
   height: 700px;
   object-fit: contain;
 }
+.e_menu_img{
+  height: 300px;
+  width: auto;
+  margin-bottom: 30px;
+  object-fit: contain;
+}
+.e_menu .carousel-indicators {
+  display: none!important;
+}
 /* virtual section css end */

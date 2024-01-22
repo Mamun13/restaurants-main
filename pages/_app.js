@@ -3,7 +3,6 @@ import { DefaultSeo } from 'next-seo';
 // import { Provider, useSelector } from 'react-redux';
 // import { PersistGate } from 'redux-persist/integration/react';
 import SEO from '../next-seo.config';
-// import '../styles/animate.min.css';
 import '../styles/bootstrap.min.css';
 import '../styles/style.css';
 import 'slick-carousel/slick/slick.css';
