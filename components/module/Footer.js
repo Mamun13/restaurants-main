@@ -17,27 +17,31 @@ export default function Footer() {
       >
         <div className='container py-5'>
           <div className='row g-5'>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-3 col-md-6 col-sm-6'>
               <h4 className='section-title ff-secondary text-start text-primary fw-normal mb-4'>
                 Company
               </h4>
-              <Link className='btn btn-link' href=''>
-                About Us
-              </Link>
-              <Link className='btn btn-link' href=''>
-                Contact Us
-              </Link>
-              <Link className='btn btn-link' href=''>
-                Reservation
-              </Link>
-              <Link className='btn btn-link' href=''>
-                Privacy Policy
-              </Link>
-              <Link className='btn btn-link' href=''>
-                Terms &amp; Condition
-              </Link>
+              {/* <div className='footer_mobile_res'> */}
+              <div className='text-center'>
+                <Link className='btn btn-link' href=''>
+                  About Us
+                </Link>
+                <Link className='btn btn-link' href=''>
+                  Contact Us
+                </Link>
+                <Link className='btn btn-link' href=''>
+                  Reservation
+                </Link>
+                <Link className='btn btn-link' href=''>
+                  Privacy Policy
+                </Link>
+                <Link className='btn btn-link' href=''>
+                  Terms &amp; Condition
+                </Link>
+              </div>
             </div>
-            <div className='col-lg-4 col-md-6'>
+            {/* </div> */}
+            <div className='col-lg-4 col-md-6 col-sm-6'>
               <h4 className='section-title ff-secondary text-start text-primary fw-normal mb-4'>
                 Contact
               </h4>
@@ -63,34 +67,34 @@ export default function Footer() {
                 <Link
                   className='btn btn-outline-light btn-social'
                   target='_blank'
-                  href=''
+                  href='https://www.facebook.com/arrowheadgrilbd/'
                 >
                   <i className='fab fa-facebook-f' />
                 </Link>
                 <Link
                   className='btn btn-outline-light btn-social'
                   target='_blank'
-                  href=''
+                  href='https://www.youtube.com/@arrowheadgrill'
                 >
                   <i className='fab fa-youtube' />
                 </Link>
                 <Link
                   className='btn btn-outline-light btn-social'
                   target='_blank'
-                  href='#'
+                  href='https://www.instagram.com/arrowhead_grill_bd/'
                 >
                   <i className='fab fa-instagram' />
                 </Link>
               </div>
             </div>
-            <div className='col-lg-2 col-md-6'>
+            <div className='col-lg-2 col-md-6 col-sm-6'>
               <h4 className='section-title ff-secondary text-start text-primary fw-normal mb-4'>
                 Opening
               </h4>
-              <p className='text-light fw-normal font_14'>Monday - Saturday</p>
-              <p className='font_14'>10:30 AM - 09:30 PM</p>
-              <p className='text-light fw-normal font_14'>Friday</p>
-              <p className='font_14'>10 AM - 10 PM</p>
+              <p className='text-light fw-normal font_14'>Monday - Sunday</p>
+              <p className='font_14'>12:00 PM - 11:30 PM</p>
+              {/* <p className='text-light fw-normal font_14'>Friday</p>
+              <p className='font_14'>10 AM - 10 PM</p> */}
             </div>
             <div className='col-lg-3 col-md-6'>
               <h4 className='section-title ff-secondary text-capitalize text-start text-primary fw-normal mb-4'>
@@ -118,12 +122,7 @@ export default function Footer() {
                   <p className='text-capitalize ps-3 font_14'>Online Order</p>
                 </div>
 
-                <div className='d-flex align-items-center'>
-                  <div className='newsletter_icon_details position-relative d-flex justify-content-center align-items-center rounded-pill'>
-                    <Ri24HoursLine className='' size={'20px'} />
-                  </div>
-                  <p className='text-capitalize ps-3 font_14'>24/7 Service</p>
-                </div>
+                
               </div>
             </div>
           </div>

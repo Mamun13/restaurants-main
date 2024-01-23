@@ -19,12 +19,12 @@ export default function Reservation() {
               </span>
             </p>
           </div>
-          <Row>
+          <Row className='d-flex justify-content-center'>
             <Col lg={3} md={6}>
               <div>
                 <div className='mb-3'>
                   <label htmlFor='' className='form-label'>
-                    Username
+                    Username<span> *</span>
                   </label>
                   <input
                     type='text'
@@ -36,9 +36,39 @@ export default function Reservation() {
               </div>
             </Col>
             <Col lg={3} md={6}>
-              <div className='reser_form_one'>
+              <div>
+                <div className='mb-3'>
+                  <label htmlFor='' className='form-label'>
+                    Email
+                  </label>
+                  <input
+                    type='email'
+                    className='form-control username_form'
+                    id=''
+                    placeholder='Enter name'
+                  />
+                </div>
+              </div>
+            </Col>
+            <Col lg={3} md={6}>
+              <div>
+                <div className='mb-3'>
+                  <label htmlFor='' className='form-label'>
+                    Phone Number <span> *</span>
+                  </label>
+                  <input
+                    type='number'
+                    className='form-control username_form'
+                    id=''
+                    placeholder='Enter name'
+                  />
+                </div>
+              </div>
+            </Col>
+            <Col lg={3} md={6}>
+              <div className='mb-3 reser_form_one'>
                 <label htmlFor='' className='form-label'>
-                  Select Adult
+                  Select Adult<span> *</span>
                 </label>
                 <select
                   className='form-select rounded-0 select_form'
@@ -49,14 +79,17 @@ export default function Reservation() {
                   <option value='1'>2 person</option>
                   <option value='2'>4 person</option>
                   <option value='3'>8 person</option>
+                  <option value='4'>10 person</option>
+                  <option value='5'>12 person</option>
+                  <option value='6'>14 person</option>
                 </select>
               </div>
             </Col>
             <Col lg={3} md={6}>
               <div>
-                <div className='mb-3'>
+                <div className='mb-3 reser_form_one'>
                   <label htmlFor='' className='form-label'>
-                    Reservation date
+                    Reservation date<span> *</span>
                   </label>
                   <input
                     type='date'
@@ -70,7 +103,7 @@ export default function Reservation() {
             <Col lg={3} md={6}>
               <div className='reser_form_one'>
                 <label htmlFor='' className='form-label'>
-                  Select Time
+                  Select Time<span> *</span>
                 </label>
                 <select
                   className='form-select rounded-0 select_form'
@@ -89,7 +122,7 @@ export default function Reservation() {
                 <span className='text text-uppercase'>book a table</span>
               </button>
             </div>
-            <p className='text-center mt-4'> Booking request <span className='theme_text_color'>+ 00-123-123456</span>  or fill out the order form </p>
+            <p className='text-center mt-4'> Booking request <span className='theme_text_color'>+880 1885-837125 </span>  or fill out the order form </p>
           </Row>
         </Container>
       </section>

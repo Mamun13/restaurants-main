@@ -36,20 +36,55 @@ export default function FoodMenu() {
             <div className='col-lg-12'>
               <div className='d-flex justify-content-center text-center py-4'>
                 <span className='d-flex pb-3'>
-                  <button
-                    className={`d-flex align-items-center text-start text-light position-relative border-0 bg-transparent food_tab_active px-4 position-relative `}
+                <button
+                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
                     onClick={() => {
-                      setmovieData(CartApi);
-                      handleTabChange('all');
+                      filterItem('starters');
+                      handleTabChange('starters');
                     }}
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={` fw-light font_14 filter_menu_font m-0 ${
-                          tab === 'all' ? 'onclick_active' : ''
+                        className={`filter_menu_font fw-light font_14 m-0 ${
+                          tab === 'starters' ? 'onclick_active' : '' //dinner to starters
                         } `}
                       >
-                        AG SPECIAL
+                        STARTERS
+                      </span>
+                    </div>
+                  </button>
+                  <button
+                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
+                    onClick={() => {
+                      filterItem('soup');
+                      handleTabChange('soup');
+                    }}
+                  >
+                    <div className='food_tab_active'>
+                      <span
+                        className={`filter_menu_font fw-light font_14 m-0 ${
+                          tab === 'soup' ? 'onclick_active' : ''
+                        } `}
+                      >
+                        SOUP
+                      </span>
+                    </div>
+                  </button>
+
+                  <button
+                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative`}
+                    onClick={() => {
+                      filterItem('table_top');
+                      handleTabChange('table_top');
+                    }}
+                  >
+                    <div className='food_tab_active'>
+                      <span
+                        className={`filter_menu_font fw-light font_14 m-0 ${
+                          tab === 'table_top' ? 'onclick_active' : '' //lunch to  table
+                        } `}
+                      >
+                        TABLE TOP
                       </span>
                     </div>
                   </button>
@@ -72,57 +107,27 @@ export default function FoodMenu() {
                   </button>
 
                   <button
-                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative`}
+                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
                     onClick={() => {
-                      filterItem('table_top');
-                      handleTabChange('table_top');
+                      filterItem('special_chicken');
+                      handleTabChange('special_chicken');
                     }}
                   >
                     <div className='food_tab_active'>
                       <span
                         className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'table_top' ? 'onclick_active' : '' //lunch to  table
+                          tab === 'special_chicken' ? 'onclick_active' : ''
                         } `}
                       >
-                        TABLE TOP
-                      </span>
+                         CHICKEN
+                      </span> 
                     </div>
                   </button>
 
-                  <button
-                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
-                    onClick={() => {
-                      filterItem('starters');
-                      handleTabChange('starters');
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'starters' ? 'onclick_active' : '' //dinner to starters
-                        } `}
-                      >
-                        STARTERS
-                      </span>
-                    </div>
-                  </button>
-                  <button
-                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
-                    onClick={() => {
-                      filterItem('smoothie');
-                      handleTabChange('smoothie');
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'smoothie' ? 'onclick_active' : ''
-                        } `}
-                      >
-                        SMOOTHIE
-                      </span>
-                    </div>
-                  </button>
+
+
+
+
                   <button
                     className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
                     onClick={() => {
@@ -140,40 +145,47 @@ export default function FoodMenu() {
                       </span>
                     </div>
                   </button>
-                  <button
-                    className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
+
+                  
+
+                  
+                  {/* <button
+                    className={`d-flex align-items-center text-start text-light position-relative border-0 bg-transparent food_tab_active px-4 position-relative `}
                     onClick={() => {
-                      filterItem('soup');
-                      handleTabChange('soup');
+                      setmovieData(CartApi);
+                      handleTabChange('all');
                     }}
                   >
                     <div className='food_tab_active'>
                       <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'soup' ? 'onclick_active' : ''
+                        className={` fw-light font_14 filter_menu_font m-0 ${
+                          tab === 'all' ? 'onclick_active' : ''
                         } `}
                       >
-                        SOUP
+                        AG SPECIAL
                       </span>
                     </div>
-                  </button>
-                  <button
+                  </button> */}
+                  {/* <button
                     className={`d-flex align-items-center text-start text-light border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
                     onClick={() => {
-                      filterItem('special_chicken');
-                      handleTabChange('special_chicken');
+                      filterItem('smoothie');
+                      handleTabChange('smoothie');
                     }}
                   >
                     <div className='food_tab_active'>
                       <span
                         className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'special_chicken' ? 'onclick_active' : ''
+                          tab === 'smoothie' ? 'onclick_active' : ''
                         } `}
                       >
-                        SPECIAL CHICKEN
-                      </span> 
+                        SMOOTHIE
+                      </span>
                     </div>
-                  </button>
+                  </button> */}
+                  
+                  
+                  
                 </span>
               </div>
             </div>
@@ -183,7 +195,7 @@ export default function FoodMenu() {
             {movieData?.map((curElement, index) => {
               return (
                   <div key={index} className='col-lg-6 col-md-6 food_manu_border' >
-                    <div className='d-flex justify-content-start align-items-center my-4 px-5 px-md-3'>
+                    <div className='d-flex justify-content-start align-items-center my-4 px-5 px-md-3 pad_res'>
                       <div>
                         <img
                           src={curElement.image}

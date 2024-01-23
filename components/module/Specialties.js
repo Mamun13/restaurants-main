@@ -46,7 +46,7 @@ const Specialties = () => {
     <>
       <section className='py-5 specialties_section'>
         <Container fluid>
-          <div className='text-center pb-5 pb-md-0'>
+          <div className='text-center pb-5 pb-md-0 sp_mobile_pad'>
             <GiKnifeFork className='theme_text_color' size={'40px'} />
 
             <h1 className='text-capitalize text-center service_title fw_400'>

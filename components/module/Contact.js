@@ -26,7 +26,7 @@ const Contact = () => {
                   <div>
                     <h1 className='text-capitalize text-center service_title fw_400'>
                       visit
-                      <br /> delicious restaurants
+                      <br /> Arrowhead Grill
                     </h1>
                     <p className='text-capitalize text-center'>
                       <span className='position-relative service_subtitle theme_text_color'>
@@ -37,13 +37,16 @@ const Contact = () => {
                   <div className='pt-4'>
                     <p className='text-capitalize m-0'>booking request</p>
                     <h1 className='theme_text_color fw-normal font_50'>
-                      +000 123 123456
+                      +880 1885-837125
                     </h1>
                     <h2 className=' fw-normal text-capitalize'>address</h2>
-                    <p className='text-capitalize m-0'>
-                      Buffet Lounge Mirpur 12,Trust Trouser Ltd.
-                      <br /> Dhaka 1216
-                    </p>
+                    <div className=' d-flex justify-content-center '>
+                      <p className='text-capitalize m-0 w-50'>
+                        House: 32 (Level-4), Road: 11, Block: G, Banani,
+                        Dhaka-1213, Opposite of Yellow, same building as Coffee
+                        World.
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div>

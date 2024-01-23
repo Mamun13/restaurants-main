@@ -171,6 +171,7 @@ export default function Navbar() {
                     src='/assets/images/logo.png'
                     style={{ maxHeight: 80, marginTop: 10, marginBottom: 5 }}
                     alt='Logo'
+                    className='responsive_logo'
                   />
                 </Link>
               </div>

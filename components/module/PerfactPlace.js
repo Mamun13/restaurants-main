@@ -32,16 +32,12 @@ const PerfactPlace = () => {
             <Col lg={6}>
               <div>
                 <p className='text-capitalize font_14'>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Indulge your senses at Arrowhead Grill, where culinary
+                  excellence meets inviting ambiance. Immerse yourself in a
+                  world of flavors crafted with precision and served with a
+                  touch of sophistication. Join us for an extraordinary dining
+                  journey that goes beyond the ordinary – a truly exceptional
+                  experience awaits at Arrowhead Grill.
                 </p>
               </div>
             </Col>
@@ -62,10 +58,10 @@ const PerfactPlace = () => {
               </div>
             </div>
             <div className='pt-5 text-end'>
-            <p className='pe-4 mb-0 phone_number'>+00-123-123456</p>
-            <p className='mb-5 pe-4'>Booking request</p>
+              <p className='pe-4 mb-0 phone_number'>+880 1885-837125</p>
+              <p className='mb-5 pe-4'>Booking request</p>
               <div className='d-flex justify-content-end mt-3 pe-4'>
-                <Link href="/#Reservation" className='button-48' role='button'>
+                <Link href='/#Reservation' className='button-48' role='button'>
                   <span className='text text-uppercase'>make reservation</span>
                 </Link>
               </div>

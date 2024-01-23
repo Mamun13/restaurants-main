@@ -108,7 +108,7 @@ function Overlay() {
                 Contact
               </Link>
             </li>
-            <li>
+            <li className='for_responsive'>
               <div className='d-flex justify-content-center'>
                 <Nav.Link
                   as={Link}

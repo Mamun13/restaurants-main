@@ -17,7 +17,7 @@ export default function Testimonial() {
                 <div>
                   <div className='d-flex justify-content-center align-items-center position-relative'>
                     <div className='play_btn d-flex justify-content-center align-items-center'>
-                      <YoutubeModel />
+                      <YoutubeModel/>
                     </div>
                   </div>
                   <p className='text-capitalize pt-4'>

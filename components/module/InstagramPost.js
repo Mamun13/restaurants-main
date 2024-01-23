@@ -11,7 +11,7 @@ const InstagramPost = () => {
         <Container fluid className='p-0 m-0'>
           <div className='d-flex justify-content-center p-0 m-0'>
             <div className='d-flex justify-content-center p-0 m-0'>
-              <Col lg={4} md={4} className='p-0 m-0'>
+              <Col lg={4} md={4} sm={12} className='p-0 m-0'>
                 <div className=''>
                   <img
                     src='/assets/images/insta_one.jpg'
@@ -19,10 +19,10 @@ const InstagramPost = () => {
                   />
                 </div>
               </Col>
-              <Col lg={4}  md={4}>
+              <Col lg={4}  md={4} sm={12}>
                 <div className='position-relative '>
                   <Row className='p-0 m-0 marge_padding'>
-                    <Col lg={6} md={6}>
+                    <Col lg={6} md={6} sm={6}>
                       <div
                         className='on_hover insta_post'
                         style={{ position: 'relative' }}
@@ -38,7 +38,7 @@ const InstagramPost = () => {
                         </div>
                       </div>
                     </Col>
-                    <Col lg={6} md={6}>
+                    <Col lg={6} md={6} sm={6}>
                       <div
                         className='on_hover insta_post'
                         style={{ position: 'relative' }}
@@ -54,7 +54,7 @@ const InstagramPost = () => {
                         </div>
                       </div>
                     </Col>
-                    <Col lg={6} md={6}>
+                    <Col lg={6} md={6} sm={6}>
                       <div
                         className='on_hover insta_post'
                         style={{ position: 'relative' }}
@@ -94,7 +94,7 @@ const InstagramPost = () => {
                   </Row>
                 </div>
               </Col>
-              <Col lg={4} md={4} className='p-0 m-0'>
+              <Col lg={4} md={4} sm={12} className='p-0 m-0'>
                 <div className=''>
                   <img
                     src='/assets/images/insta_two.jpg'
