@@ -1194,14 +1194,19 @@ font-family: 'Poppins', sans-serif; */
 
 /* instagram css part start */
 .insta_post {
-  height: 450px;
+  height: auto;
   width: 450px;
   object-fit: contain;
 }
 .all_insta_posts {
   height: 225px;
   width: 50%;
-  object-fit: cover;
+  object-fit: contain;
+}
+.dall_insta_posts {
+  height: 225px;
+  width: 50%;
+  object-fit: contain;
 }
 
 .marge_padding .col-lg-6 {
@@ -1216,8 +1221,8 @@ font-family: 'Poppins', sans-serif; */
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   background-color: #002b4091;
   cursor: pointer;
   /* z-index: 99999; */
@@ -1459,7 +1464,7 @@ iframe {
 }
 .about_title_des {
   font-size: 60px;
-  line-height: 55testimonialpx;
+  line-height: 55px;
 }
 .about_page_title {
   position: absolute;
@@ -1682,8 +1687,8 @@ iframe {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .sp_mobile_pad{
-    padding-bottom: 0px!important;
+  .sp_mobile_pad {
+    padding-bottom: 0px !important;
   }
   /* .footer_mobile_res{
     display: flex;
@@ -1692,5 +1697,29 @@ iframe {
   } */
   .footer .btn.btn-link {
     font-size: 12px;
-}
+  }
+  .phone_number {
+    font-size: 25px;
+  }
+  .food_manu_border:nth-child(2n-1) {
+    border-right: 1px dashed transparent !important;
+  }
+  .contact_number {
+    font-size: 35px !important;
+  }
+  .contact_address {
+    width: 72% !important;
+  }
+  .visit_bg_img {
+    top: -7%;
+    left: -18%;
+  }
+  .instagram_post {
+    flex-direction: column;
+  }
+  .all_insta_posts {
+    height: 137px;
+    width: auto;
+    flex-direction: row;
+  }
 }

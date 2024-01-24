@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FiPlus } from 'react-icons/fi';
 import { PiInstagramLogoLight } from 'react-icons/pi';
-import Link from 'next/link'
+import Link from 'next/link';
 
 const InstagramPost = () => {
   return (
@@ -10,8 +10,8 @@ const InstagramPost = () => {
       <section>
         <Container fluid className='p-0 m-0'>
           <div className='d-flex justify-content-center p-0 m-0'>
-            <div className='d-flex justify-content-center p-0 m-0'>
-              <Col lg={4} md={4} sm={12} className='p-0 m-0'>
+            <div className='d-flex justify-content-center instagram_post p-0 m-0'>
+              <Col lg={4} md={4} className='p-0 m-0'>
                 <div className=''>
                   <img
                     src='/assets/images/insta_one.jpg'
@@ -19,7 +19,7 @@ const InstagramPost = () => {
                   />
                 </div>
               </Col>
-              <Col lg={4}  md={4} sm={12}>
+              <Col lg={4} md={4}>
                 <div className='position-relative '>
                   <Row className='p-0 m-0 marge_padding'>
                     <Col lg={6} md={6} sm={6}>
@@ -70,7 +70,7 @@ const InstagramPost = () => {
                         </div>
                       </div>
                     </Col>
-                    <Col lg={6} md={6}>
+                    <Col lg={6} md={6} sm={6}>
                       <div
                         className='on_hover insta_post'
                         style={{ position: 'relative' }}
@@ -87,14 +87,17 @@ const InstagramPost = () => {
                       </div>
                     </Col>
                     <div className='insta_icon_bg d-flex justify-content-center align-items-center'>
-                      <Link href="#" className='text-decoration-none insta_icon'>
-                        <PiInstagramLogoLight size={"40px"}/>
+                      <Link
+                        href='#'
+                        className='text-decoration-none insta_icon'
+                      >
+                        <PiInstagramLogoLight size={'40px'} />
                       </Link>
                     </div>
                   </Row>
                 </div>
               </Col>
-              <Col lg={4} md={4} sm={12} className='p-0 m-0'>
+              <Col lg={4} md={4} className='p-0 m-0'>
                 <div className=''>
                   <img
                     src='/assets/images/insta_two.jpg'
@@ -106,6 +109,12 @@ const InstagramPost = () => {
           </div>
         </Container>
       </section>
+      <Container>
+       <Row>
+        <Col lg={4} md={4} sm={4}>asdas</Col>
+        <Col lg={4} md={4} sm={4}>asdas</Col>
+       </Row>
+      </Container>
     </>
   );
 };

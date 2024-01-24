@@ -70,7 +70,7 @@ const Specialties = () => {
                     />
                   </div>
                   <div>
-                    <h2 className='text-capitalize font_32'>{item.name}</h2>
+                    <h2 className='text-capitalize font_32 fw_400'>{item.name}</h2>
                     <p className='fw-light px-3 font_14'>{item.description}</p>
                     <p className='theme_text_color font_24 fw_400'>BDT.{item.price}</p>
                   </div>

@@ -36,12 +36,12 @@ const Contact = () => {
                   </div>
                   <div className='pt-4'>
                     <p className='text-capitalize m-0'>booking request</p>
-                    <h1 className='theme_text_color fw-normal font_50'>
+                    <h1 className='theme_text_color contact_number fw-normal font_50'>
                       +880 1885-837125
                     </h1>
                     <h2 className=' fw-normal text-capitalize'>address</h2>
                     <div className=' d-flex justify-content-center '>
-                      <p className='text-capitalize m-0 w-50'>
+                      <p className='text-capitalize m-0 w-50 contact_address'>
                         House: 32 (Level-4), Road: 11, Block: G, Banani,
                         Dhaka-1213, Opposite of Yellow, same building as Coffee
                         World.
