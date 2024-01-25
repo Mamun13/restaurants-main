@@ -607,6 +607,10 @@ font-family: 'Poppins', sans-serif; */
 }
 
 /*** Food Menu ***/
+.mobile_menu_item_btn button#dropdown-basic {
+
+  display: none !important;
+}
 .nav-pills .nav-item .active {
   border-bottom: 2px solid var(--primary);
 }
@@ -1654,7 +1658,7 @@ iframe {
     margin-top: 20px;
   }
   .filter_menu_font {
-    color: #333;
+    color: #fff;
     font-size: 10px !important;
   }
   .testimonial-item {
@@ -1824,5 +1828,9 @@ iframe {
   }
   .sec_border {
     padding: 49px;
+  }
+  .mobile_menu_item_btn button#dropdown-basic {
+
+    display: block !important;
   }
 }

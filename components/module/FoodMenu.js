@@ -180,133 +180,133 @@ export default function FoodMenu() {
               </div>
             </div>
           </div>
+          
           {/* for responsive menu items */}
           <div className='mobile_menu_item_btn'>
+            <div className='d-flex justify-content-center mt-5 mb-4 mobile_menu_hover'>
+              <Dropdown>
+                <Dropdown.Toggle className='px-5 py-2' id='dropdown-basic'>
+                  Menu Items
+                </Dropdown.Toggle>
 
-          </div>
-          <div className='d-flex justify-content-center mt-5 mb-4 mobile_menu_hover' >
-            <Dropdown>
-              <Dropdown.Toggle className='px-5 py-2' id='dropdown-basic'>
-                Menu Items
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu>
-                <Dropdown.Item className='menu_list_items_color'>
-                  <button
-                    className={`d-flex align-items-center text-start text-dark filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
-                    onClick={() => {
-                      filterItem('starters');
-                      handleTabChange('starters');
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'starters' ? 'onclick_active' : '' //dinner to starters
-                        } `}
-                      >
-                        STARTERS
-                      </span>
-                    </div>
-                  </button>
-                </Dropdown.Item>
-                <Dropdown.Item  className='menu_list_items_color'>
-                  <button
-                    className={`d-flex align-items-center filter_menu_list text-start border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
-                    onClick={() => {
-                      filterItem('soup');
-                      handleTabChange('soup');
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'soup' ? 'onclick_active' : ''
-                        } `}
-                      >
-                        SOUP
-                      </span>
-                    </div>
-                  </button>
-                </Dropdown.Item>
-                <Dropdown.Item  className='menu_list_items_color'>
-                  <button
-                    className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative`}
-                    onClick={() => {
-                      filterItem('table_top');
-                      handleTabChange('table_top');
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'table_top' ? 'onclick_active' : '' //lunch to  table
-                        } `}
-                      >
-                        TABLE TOP
-                      </span>
-                    </div>
-                  </button>
-                </Dropdown.Item>
-                <Dropdown.Item  className='menu_list_items_color'>
-                  <button
-                    className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative`}
-                    onClick={() => {
-                      filterItem('steak');
-                      handleTabChange('steak'); //morning to steak
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`fw-light filter_menu_font font_14 m-0 ${
-                          tab === 'steak' ? 'onclick_active' : ''
-                        } `}
-                      >
-                        STEAK
-                      </span>
-                    </div>
-                  </button>
-                </Dropdown.Item>
-                <Dropdown.Item  className='menu_list_items_color'>
-                  <button
-                    className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
-                    onClick={() => {
-                      filterItem('special_chicken');
-                      handleTabChange('special_chicken');
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'special_chicken' ? 'onclick_active' : ''
-                        } `}
-                      >
-                        CHICKEN
-                      </span>
-                    </div>
-                  </button>
-                </Dropdown.Item>
-                <Dropdown.Item  className='menu_list_items_color'>
-                  <button
-                    className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
-                    onClick={() => {
-                      filterItem('mocktails');
-                      handleTabChange('mocktails');
-                    }}
-                  >
-                    <div className='food_tab_active'>
-                      <span
-                        className={`filter_menu_font fw-light font_14 m-0 ${
-                          tab === 'mocktails' ? 'onclick_active' : ''
-                        } `}
-                      >
-                        MOCKTAILS
-                      </span>
-                    </div>
-                  </button>
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
+                <Dropdown.Menu>
+                  <Dropdown.Item className='menu_list_items_color'>
+                    <button
+                      className={`d-flex align-items-center text-start text-dark filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
+                      onClick={() => {
+                        filterItem('starters');
+                        handleTabChange('starters');
+                      }}
+                    >
+                      <div className='food_tab_active'>
+                        <span
+                          className={`filter_menu_font fw-light font_14 m-0 ${
+                            tab === 'starters' ? 'onclick_active' : '' //dinner to starters
+                          } `}
+                        >
+                          STARTERS
+                        </span>
+                      </div>
+                    </button>
+                  </Dropdown.Item>
+                  <Dropdown.Item className='menu_list_items_color'>
+                    <button
+                      className={`d-flex align-items-center filter_menu_list text-start border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
+                      onClick={() => {
+                        filterItem('soup');
+                        handleTabChange('soup');
+                      }}
+                    >
+                      <div className='food_tab_active'>
+                        <span
+                          className={`filter_menu_font fw-light font_14 m-0 ${
+                            tab === 'soup' ? 'onclick_active' : ''
+                          } `}
+                        >
+                          SOUP
+                        </span>
+                      </div>
+                    </button>
+                  </Dropdown.Item>
+                  <Dropdown.Item className='menu_list_items_color'>
+                    <button
+                      className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative`}
+                      onClick={() => {
+                        filterItem('table_top');
+                        handleTabChange('table_top');
+                      }}
+                    >
+                      <div className='food_tab_active'>
+                        <span
+                          className={`filter_menu_font fw-light font_14 m-0 ${
+                            tab === 'table_top' ? 'onclick_active' : '' //lunch to  table
+                          } `}
+                        >
+                          TABLE TOP
+                        </span>
+                      </div>
+                    </button>
+                  </Dropdown.Item>
+                  <Dropdown.Item className='menu_list_items_color'>
+                    <button
+                      className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative`}
+                      onClick={() => {
+                        filterItem('steak');
+                        handleTabChange('steak'); //morning to steak
+                      }}
+                    >
+                      <div className='food_tab_active'>
+                        <span
+                          className={`fw-light filter_menu_font font_14 m-0 ${
+                            tab === 'steak' ? 'onclick_active' : ''
+                          } `}
+                        >
+                          STEAK
+                        </span>
+                      </div>
+                    </button>
+                  </Dropdown.Item>
+                  <Dropdown.Item className='menu_list_items_color'>
+                    <button
+                      className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
+                      onClick={() => {
+                        filterItem('special_chicken');
+                        handleTabChange('special_chicken');
+                      }}
+                    >
+                      <div className='food_tab_active'>
+                        <span
+                          className={`filter_menu_font fw-light font_14 m-0 ${
+                            tab === 'special_chicken' ? 'onclick_active' : ''
+                          } `}
+                        >
+                          CHICKEN
+                        </span>
+                      </div>
+                    </button>
+                  </Dropdown.Item>
+                  <Dropdown.Item className='menu_list_items_color'>
+                    <button
+                      className={`d-flex align-items-center text-start filter_menu_list border-0 bg-transparent position-relative food_tab_active px-4 position-relative `}
+                      onClick={() => {
+                        filterItem('mocktails');
+                        handleTabChange('mocktails');
+                      }}
+                    >
+                      <div className='food_tab_active'>
+                        <span
+                          className={`filter_menu_font fw-light font_14 m-0 ${
+                            tab === 'mocktails' ? 'onclick_active' : ''
+                          } `}
+                        >
+                          MOCKTAILS
+                        </span>
+                      </div>
+                    </button>
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </div>
           </div>
 
           <div className='row'>
