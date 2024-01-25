@@ -82,7 +82,7 @@ function Overlay() {
                 <NavDropdown.Item
                   as={Link}
                   href='/e-menu'
-                  className='fw_400 res_font_size'
+                  className='fw_400 res_font_size overlay_emenu'
                 >
                   E-Menu
                 </NavDropdown.Item>

@@ -181,6 +181,14 @@ font-family: 'Poppins', sans-serif; */
 /* overlay part start */
 
 /* for responsive manu css */
+.overlay_emenu{
+  color: #333!important;
+  transition: all linear 0.3s;
+}
+.overlay_emenu:hover{
+  color: #fff!important;
+  background-color: var(--dark-light);
+}
 .sticky3 {
   position: fixed;
   top: 0;
