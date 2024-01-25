@@ -17,7 +17,7 @@ const VertualMenu = () => {
         <Container>
           <div className='mb-3'>
             <Row>
-              <Col lg={4} md={4}>
+              <Col lg={4} md={4} sm={6}>
                 <div className='d-flex justify-content-center'>
                   <img
                     src='/assets/images/menu1.jpeg'
@@ -26,7 +26,7 @@ const VertualMenu = () => {
                   />
                 </div>
               </Col>
-              <Col lg={4} md={4}>
+              <Col lg={4} md={4} sm={6}>
                 <div className='d-flex justify-content-center'>
                   <img
                     src='/assets/images/menu2.jpeg'
@@ -35,7 +35,7 @@ const VertualMenu = () => {
                   />
                 </div>
               </Col>
-              <Col lg={4} md={4}>
+              <Col lg={4} md={4} sm={6}>
                 <div className='d-flex justify-content-center'>
                   <img
                     src='/assets/images/menu3.jpeg'
@@ -44,7 +44,7 @@ const VertualMenu = () => {
                   />
                 </div>
               </Col>
-              <Col lg={4} md={4}>
+              <Col lg={4} md={4} sm={6}>
                 <div className='d-flex justify-content-center'>
                   <img
                     src='/assets/images/menu4.jpeg'
@@ -53,7 +53,7 @@ const VertualMenu = () => {
                   />
                 </div>
               </Col>
-              <Col lg={4} md={4}>
+              <Col lg={4} md={4} sm={6}>
                 <div className='d-flex justify-content-center'>
                   <img
                     src='/assets/images/menu5.jpeg'

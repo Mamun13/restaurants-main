@@ -28,7 +28,7 @@ export default function Service() {
               data-wow-delay='0.1s'
             >
               <div className='text-center rounded pt-3'>
-                <div className='p-4'>
+                <div className='p-4 service_mobile_res'>
                   <div className='d-flex justify-content-center'>
                     <div className='icon_details position-relative d-flex justify-content-center align-items-center rounded-pill'>
                       <LuChefHat className='' size={'40px'} />
@@ -48,7 +48,7 @@ export default function Service() {
               data-wow-delay='0.1s'
             >
               <div className='text-center rounded pt-3'>
-                <div className='p-4'>
+                <div className='p-4 service_mobile_res'>
                   <div className='d-flex justify-content-center'>
                     <div className='icon_details position-relative d-flex justify-content-center align-items-center rounded-pill'>
                       <GiHotMeal className='' size={'40px'} />
@@ -69,7 +69,7 @@ export default function Service() {
               data-wow-delay='0.1s'
             >
               <div className='text-center rounded pt-3'>
-                <div className='p-4'>
+                <div className='p-4 service_mobile_res'>
                   <div className='d-flex justify-content-center'>
                     <div className='icon_details position-relative d-flex justify-content-center align-items-center rounded-pill'>
                       <MdOutlineAddShoppingCart className='' size={'40px'} />
@@ -89,7 +89,7 @@ export default function Service() {
               data-wow-delay='0.1s'
             >
               <div className='text-center rounded pt-3'>
-                <div className='p-4'>
+                <div className='p-4 service_mobile_res'>
                   <div className='d-flex justify-content-center'>
                     <div className='icon_details position-relative d-flex justify-content-center align-items-center rounded-pill'>
                       <Ri24HoursLine className='' size={'40px'} />

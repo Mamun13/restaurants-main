@@ -69,7 +69,7 @@ export default function Navbar() {
       <div id='Top' className='overbanner2'>
         <nav className='navbar navbar-expand-lg navbar-dark px-4 px-lg-5 py-3 py-lg-0 '>
           {/* <nav className='navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0 sticky-top shadow-sm'> */}
-          <Nav.Link href='/' className='navbar-brand p-2'>
+          <Nav.Link as={Link} href='/' className='navbar-brand p-2'>
             <img
               src='/assets/images/logo.png'
               style={{ maxHeight: 80, marginTop: 10, marginBottom: 5 }}

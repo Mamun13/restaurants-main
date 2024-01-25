@@ -1,5 +1,6 @@
 /********** Template CSS **********/
-body {
+body,
+html {
   overflow-x: hidden;
 }
 :root {
@@ -612,6 +613,9 @@ font-family: 'Poppins', sans-serif; */
 .menu_icon {
   font-size: 25px !important;
 }
+.mobile_menu_item_btn {
+  display: none !important;
+}
 /*** Youtube Video ***/
 .video {
   position: relative;
@@ -813,9 +817,21 @@ font-family: 'Poppins', sans-serif; */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../public/assets/images/review.png);
   background-size: cover;
+  padding-top: 100px !important;
 }
 .review_part .carousel-indicators {
   display: none;
+}
+.review-item {
+  height: 350px;
+}
+.review_des_line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 /* review part css end */
 
@@ -1090,6 +1106,11 @@ font-family: 'Poppins', sans-serif; */
   color: var(--primary) !important;
 }
 
+.food_tab_active::after {
+  top: 13px;
+  height: 3px;
+  width: 3px;
+}
 /* .manu_active{
 
 } */
@@ -1475,6 +1496,10 @@ iframe {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+.play_btn_res {
+  font-size: 30px;
+}
+
 /* read_more_banner css part end */
 
 .test_animation {
@@ -1629,6 +1654,7 @@ iframe {
     margin-top: 20px;
   }
   .filter_menu_font {
+    color: #333;
     font-size: 10px !important;
   }
   .testimonial-item {
@@ -1718,8 +1744,85 @@ iframe {
     flex-direction: column;
   }
   .all_insta_posts {
-    height: 137px;
-    width: auto;
+    height: 215px;
+    /* width: auto; */
     flex-direction: row;
+  }
+  .sec_border {
+    padding: 63px;
+  }
+  .testi_party {
+    padding-left: 0px !important;
+  }
+  .about_title_des {
+    font-size: 45px;
+  }
+  .service_mobile_res {
+    padding: 0px !important;
+  }
+  .perfect_title {
+    /* text-align: center; */
+    font-size: 50px;
+    line-height: 45px;
+    padding-left: 0px !important;
+  }
+  /* .perfect_placetext {
+    text-align: center;
+  } */
+  .perfect_images {
+    height: 300px;
+  }
+  .perfect_img_one {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    padding: 0px !important;
+    margin-top: 20px;
+  }
+  .perfect_img_two {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    padding: 0px !important;
+  }
+  .youtube_bg {
+    height: 60vh;
+  }
+  .play_btn {
+    height: 50px;
+    width: 50px;
+  }
+  .play_btn_res {
+    font-size: 20px !important;
+  }
+  .read_more_des {
+    text-align: center;
+  }
+  .filter_menu_list {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .filter_border {
+    display: none !important;
+  }
+  .mobile_menu_hover .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: var(--dark-light);
+  }
+  .menu_list_items_color:hover .filter_menu_font {
+    color: #fff !important;
+  }
+  .mobile_menu_item_btn {
+    display: block !important;
+  }
+  .review_part {
+    padding-top: 50px !important;
+  }
+  .all_insta_posts {
+    height: 188px;
+  }
+  .sec_border {
+    padding: 49px;
   }
 }

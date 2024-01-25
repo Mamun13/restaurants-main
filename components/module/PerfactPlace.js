@@ -31,7 +31,7 @@ const PerfactPlace = () => {
             </Col>
             <Col lg={6}>
               <div>
-                <p className='text-capitalize font_14'>
+                <p className='text-capitalize font_14 perfect_placetext'>
                   Indulge your senses at Arrowhead Grill, where culinary
                   excellence meets inviting ambiance. Immerse yourself in a
                   world of flavors crafted with precision and served with a

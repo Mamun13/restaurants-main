@@ -33,7 +33,7 @@ function YoutubeModel() {
         onClick={() => setModalShow(true)}
         className='bg-transparent text-white border-0 play_btn_focus'
       >
-        <CiPlay1 size={'40px'} />
+        <CiPlay1 className='play_btn_res'/>
       </Button>
 
       <MyVerticallyCenteredModal

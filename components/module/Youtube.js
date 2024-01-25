@@ -22,7 +22,7 @@ export default function Testimonial() {
                   </div>
                   <p className='text-capitalize pt-4'>
                     <span className='position-relative service_subtitle theme_text_color fw-light'>
-                      introduction video one
+                      video one
                     </span>
                   </p>
                 </div>
@@ -38,7 +38,7 @@ export default function Testimonial() {
                   </div>
                   <p className='text-capitalize pt-4'>
                     <span className='position-relative service_subtitle theme_text_color fw-light'>
-                      introduction video two
+               video two
                     </span>
                   </p>
                 </div>
@@ -54,7 +54,7 @@ export default function Testimonial() {
                   </div>
                   <p className='text-capitalize pt-4'>
                     <span className='position-relative service_subtitle theme_text_color fw-light'>
-                      introduction video three
+                       video three
                     </span>
                   </p>
                 </div>

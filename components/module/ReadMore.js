@@ -8,22 +8,24 @@ const ReadMore = () => {
       <section className='read_more'>
         <div className='read_more_banner position-relative'>
           <img
-            src='/assets/images/read_more.jpg'
+            src='/assets/images/read_more.png'
             alt=''
             className='read_more_banner_img'
           />
         </div>
         <Container>
-          <p className='p-5'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+          <h1 className='text-center mt-4 lh-1 px-3 pb-3'> 
+            Arrowhead Grill <br/> Experience the art of authentic meat platter
+            mastery.
+          </h1>
+          <p className='px-3 text-justify read_more_des'>
+            Indulge in the culinary excellence of Arrowhead Grill, where the art
+            of authentic meat platter mastery comes to life. Immerse yourself in
+            a symphony of flavors as our skilled chefs craft a tantalizing array
+            of premium cuts, expertly grilled to perfection. From succulent
+            steaks to savory chops, each bite is a celebration of taste and
+            texture. Elevate your dining experience at Arrowhead Grill, where
+            passion for quality meets the mastery of meat.
           </p>
         </Container>
       </section>
