@@ -29,7 +29,7 @@ export default function Reservation() {
             </p>
           </div>
           <Row className='d-flex justify-content-center'>
-            <Col lg={3} md={6}>
+            <Col lg={6} md={6}>
               <div>
                 <div className='mb-3'>
                   <label htmlFor='' className='form-label'>
@@ -44,7 +44,7 @@ export default function Reservation() {
                 </div>
               </div>
             </Col>
-            <Col lg={3} md={6}>
+            <Col lg={6} md={6}>
               <div>
                 <div className='mb-3'>
                   <label htmlFor='' className='form-label'>
@@ -59,7 +59,7 @@ export default function Reservation() {
                 </div>
               </div>
             </Col>
-            <Col lg={3} md={6}>
+            <Col lg={4} md={6}>
               <div>
                 <div className='mb-3'>
                   <label htmlFor='' className='form-label'>
@@ -74,7 +74,7 @@ export default function Reservation() {
                 </div>
               </div>
             </Col>
-            <Col lg={3} md={6}>
+            <Col lg={4} md={6}>
               <div className='mb-3 reser_form_one'>
                 <label htmlFor='' className='form-label'>
                   Select Adult<span> *</span>
@@ -94,7 +94,7 @@ export default function Reservation() {
                 </select>
               </div>
             </Col>
-            <Col lg={3} md={6}>
+            <Col lg={4} md={6}>
               <div>
                 <div className='mb-3 reser_form_one'>
                   <label htmlFor='' className='form-label'>
