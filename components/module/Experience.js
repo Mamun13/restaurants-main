@@ -72,7 +72,7 @@ const Experience = () => {
                     role='button'
                   >
                     <span className='text text-uppercase'>
-                      make reservation
+                    reservation now
                     </span>
                   </Link>
                 </div>

@@ -33,7 +33,7 @@ export default function HeroNew() {
                 <div className='d-flex justify-content-start mt-3 btn_animation'>
                   <Link href='#Reservation' className='button-48' role='button'>
                     <span className='text text-uppercase'>
-                      make reservation
+                    reservation now
                     </span>
                   </Link>
                 </div>
@@ -66,7 +66,7 @@ export default function HeroNew() {
                 <div className='d-flex justify-content-start mt-3 btn_animation'>
                   <Link href='#Reservation' className='button-48' role='button'>
                     <span className='text text-uppercase'>
-                      make reservation
+                    reservation now
                     </span>
                   </Link>
                 </div>
@@ -100,7 +100,7 @@ export default function HeroNew() {
                 <div className='d-flex justify-content-start mt-3 btn_animation'>
                   <Link href='#Reservation' className='button-48' role='button'>
                     <span className='text text-uppercase'>
-                      make reservation
+                       reservation now
                     </span>
                   </Link>
                 </div>

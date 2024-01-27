@@ -18,15 +18,7 @@ function Overlay() {
     overlayRef.current.style.width = '0%';
   };
 
-  // const handleClickService = () => {
-  //   setShowItems(false);
-  //   // router.push("/");
-  // };
 
-  // const handleMouseEnter = () => {
-  //   setShowItems(true);
-  //   setDrop(drop);
-  // };
   return (
     <Fragment>
       <div className='main'>
@@ -42,16 +34,14 @@ function Overlay() {
         <div className='overlay-content text-uppercase font-24 fw-semibold'>
           <ul className='lh-lg text-center list-unstyled font-20'>
             <li className='text-center'>
-              <Link as={Link} href='/' className='fw_400 res_font_size'>
+              <Link  href='/' className='fw_400 res_font_size'>
                 Home
               </Link>
             </li>
 
             <li>
               <Link
-                as={Link}
                 href='/#Experience'
-                scroll={false}
                 className='fw_400 res_font_size'
               >
                 experience
@@ -59,9 +49,7 @@ function Overlay() {
             </li>
             <li>
               <Link
-                as={Link}
                 href='/#Discover'
-                scroll={false}
                 className='fw_400 res_font_size'
               >
                 discover
@@ -80,7 +68,6 @@ function Overlay() {
                 }
               >
                 <NavDropdown.Item
-                  as={Link}
                   href='/e-menu'
                   className='fw_400 res_font_size overlay_emenu'
                 >
@@ -90,9 +77,7 @@ function Overlay() {
             </li>
             <li>
               <Link
-                as={Link}
                 href='/about-us'
-                scroll={false}
                 className=' fw_400 res_font_size'
               >
                 about us
@@ -100,9 +85,7 @@ function Overlay() {
             </li>
             <li>
               <Link
-                as={Link}
                 href='/#Contact'
-                scroll={false}
                 className='res_font_size fw_400'
               >
                 Contact
@@ -111,9 +94,8 @@ function Overlay() {
             <li className='for_responsive'>
               <div className='d-flex justify-content-center'>
                 <Nav.Link
-                  as={Link}
                   href='/#Reservation'
-                  scroll={false}
+                  // scroll={false}
                   className='button-48 px-3 py-2 overlay_reser_btn  font_14 '
                   role='button'
                 >

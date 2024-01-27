@@ -150,7 +150,7 @@ export default function Navbar() {
                 role='button'
               >
                 <span className='text text-uppercase font_14'>
-                  make reservation
+                reservation now
                 </span>
               </Nav.Link>
             </div>
@@ -177,14 +177,18 @@ export default function Navbar() {
               </div>
 
               <div className="d-flex align-items-center">
-                {/* <Search />
-                <CartOverlay className="cart_overlay_div" /> */}
                 <Overlay />
               </div>
-              {/* <Overlay/> */}
             </div>
           </Container>
         </section>
+
+
+
+
+
+
+
     </>
   );
 }
